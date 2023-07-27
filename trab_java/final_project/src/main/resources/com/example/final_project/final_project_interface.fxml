@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="727.0" prefWidth="656.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_project.MainController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <Pane prefHeight="795.0" prefWidth="661.0">
+         <children>
+            <Button fx:id="hostel_info" layoutX="14.0" layoutY="40.0" mnemonicParsing="false" onAction="#openHostelInfo" prefHeight="26.0" prefWidth="144.0" text="Hostel Info" />
+            <Button fx:id="guest_create" layoutX="158.0" layoutY="40.0" mnemonicParsing="false" onAction="#openGuestCreation" prefHeight="26.0" prefWidth="144.0" text="Cadastrar Hospede" />
+            <Button fx:id="room_create" layoutX="303.0" layoutY="40.0" mnemonicParsing="false" onAction="#openRoomCreation" prefHeight="26.0" prefWidth="144.0" text="Cadastrar Quarto" />
+            <Button fx:id="guest_list" layoutX="447.0" layoutY="40.0" mnemonicParsing="false" onAction="#openGuestList" prefHeight="26.0" prefWidth="144.0" text="Lista de Hospedes" />
+            <Label fx:id="hostel_name" alignment="CENTER" layoutX="160.0" layoutY="14.0" prefHeight="16.0" prefWidth="280.0" textAlignment="CENTER" />
+            <Button fx:id="att_button" layoutY="647.0" mnemonicParsing="false" onAction="#atulizar_info" text="Atualizar" />
+            <Label fx:id="desc_label" layoutX="20.0" layoutY="106.0" prefHeight="498.0" prefWidth="360.0" />
+            <Label fx:id="end_label" layoutX="387.0" layoutY="404.0" prefHeight="166.0" prefWidth="215.0" />
+            <Label fx:id="date_label" layoutX="427.0" layoutY="577.0" prefHeight="70.0" prefWidth="162.0" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

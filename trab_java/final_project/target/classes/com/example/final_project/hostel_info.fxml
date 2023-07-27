@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_project.HostelInfoController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="10.0" layoutY="30.0" text="Nome:" />
+            <Label layoutX="10.0" layoutY="60.0" text="Endereço:" />
+            <Label layoutX="10.0" layoutY="215.0" text="Telefone:" />
+            <Label layoutX="10.0" layoutY="253.0" text="E-mail:" />
+            <Label layoutX="10.0" layoutY="284.0" text="Descriçao:" />
+            <Label layoutX="10.0" layoutY="341.0" text="Inauguraçao:" />
+            <TextField fx:id="hostel_name" layoutX="196.0" layoutY="26.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_end" layoutX="196.0" layoutY="55.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_zip" layoutX="196.0" layoutY="85.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_cidade" layoutX="196.0" layoutY="115.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_desc" layoutX="196.0" layoutY="284.0" prefHeight="46.0" prefWidth="390.0" />
+            <DatePicker fx:id="hostel_date" layoutX="388.0" layoutY="336.0" />
+            <Button fx:id="save_info" layoutX="269.0" layoutY="360.0" mnemonicParsing="false" onAction="#saveInfoButton" text="Salvar" />
+            <Label layoutX="10.0" layoutY="90.0" text="Zip code:" />
+            <Label layoutX="10.0" layoutY="120.0" text="Cidade:" />
+            <Label layoutX="10.0" layoutY="155.0" text="Estado:" />
+            <Label layoutX="10.0" layoutY="185.0" text="Pais:" />
+            <TextField fx:id="hostel_estado" layoutX="196.0" layoutY="150.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_pais" layoutX="196.0" layoutY="180.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_tel" layoutX="196.0" layoutY="210.0" prefHeight="26.0" prefWidth="390.0" />
+            <TextField fx:id="hostel_mail" layoutX="196.0" layoutY="248.0" prefHeight="26.0" prefWidth="390.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
